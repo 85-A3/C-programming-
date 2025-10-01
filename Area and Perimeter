@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    float r,x,y;
+    printf("value of r");
+    scanf("%f",&r);
+    x = 3.14*r*r;
+    y =2*3.14*r;
+    printf("area = %f",x);
+    printf("perimeter =%f",y);
+    return 0;
+}
