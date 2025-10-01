@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    char ch;
+    int x;
+    float y;
+    double z;
+    printf("Enter character");
+    scanf("%c",&ch);
+    printf("Enter integer");
+    scanf("%d",&x);
+    printf("Enter float value");
+    scanf("%f",&y);
+    printf("Enter double value");
+    scanf("%lf",&z);
+    printf("x is %d\n z is %lf\n ch is %c\n y is %f\n",x,z,ch,y);
+    return 0;
+}
