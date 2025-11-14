@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int SumOfDigits(int num){
+    if(num==0)
+        return 0;
+    else
+        return num%10+SumOfDigits(num/10);
+}
+    int main(){
+        int num;
+        scanf("%d",&num);
+        printf("%d",SumOfDigits(num));
+    return 0;
+}
